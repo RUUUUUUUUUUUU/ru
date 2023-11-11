@@ -43,7 +43,7 @@ export default async function AuthAccounts() {
         .map((user, index) => {
           return (
             <form key={user.username} action={logInUser}>
-              <input hidden value={user.username} name='username' />
+              <input hidden value={user.username} name='ruuuuu' />
               <button type='submit' className='w-full'>
                 <div className='flex flex-row items-center justify-start space-x-3 rounded-xl border border-neutral-200 bg-neutral-300 px-4 py-2 hover:border-neutral-100'>
                   <Avatar className='h-11 w-11' user={user} />
